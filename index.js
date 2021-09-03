@@ -5,4 +5,4 @@ app.get('/',(req,res) => {
     res.send('<b>Hello</b>')
     })
     
-    app.listen(3000 || process.env.port)
+    app.listen(3000)
